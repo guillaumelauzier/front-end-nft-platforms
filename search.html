@@ -1,0 +1,22 @@
+<div class="search-container">
+  <form>
+    <div class="search-input">
+      <TextField id="search" label="Search" variant="outlined" fullWidth />
+    </div>
+    <div class="filter-input">
+      <FormControl variant="outlined" fullWidth>
+        <InputLabel id="filter-label">Filter</InputLabel>
+        <Select labelId="filter-label" id="filter" label="Filter">
+          <MenuItem value="name">Name</MenuItem>
+          <MenuItem value="description">Description</MenuItem>
+          <MenuItem value="artist">Artist</MenuItem>
+          <MenuItem value="collection">Collection</MenuItem>
+        </Select>
+      </FormControl>
+    </div>
+    <div class="price-filter-input">
+      <TextField id="price-filter" label="Price" variant="outlined" fullWidth />
+    </div>
+    <Button variant="contained" color="primary" onClick="submitForm()">Search</Button>
+  </form>
+</div>
