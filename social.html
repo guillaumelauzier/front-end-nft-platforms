@@ -1,0 +1,19 @@
+<div class="social-sharing-container">
+  <h2>Share NFT</h2>
+  <form>
+    <div class="form-input">
+      <TextField id="nft-url" label="NFT URL" variant="outlined" fullWidth />
+    </div>
+    <div class="form-input">
+      <FormControl variant="outlined" fullWidth>
+        <InputLabel id="social-media-label">Social Media</InputLabel>
+        <Select labelId="social-media-label" id="social-media" label="Social Media">
+          <MenuItem value="twitter">Twitter</MenuItem>
+          <MenuItem value="instagram">Instagram</MenuItem>
+          <MenuItem value="facebook">Facebook</MenuItem>
+        </Select>
+      </FormControl>
+    </div>
+    <Button variant="contained" color="primary" onClick="shareNFT()">Share</Button>
+  </form>
+</div>
